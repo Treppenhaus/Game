@@ -4,32 +4,39 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class MapController {
-    private static ArrayList<Map> maps;
+    private ArrayList<Map> maps;
+    GraphicsController gc;
 
-    public static void loadMaps() {
+    public MapController(GraphicsController gc) {
+        this.gc = gc;
+    }
+
+    public void loadMaps() {
         maps = new ArrayList<>();
 
         Map map = new Map("default");
         ArrayList<MapTile> tiles = new ArrayList<>();
 
-        for(int x = 0; x < 100; x++)
-            for(int y = 0; y < 100; y++)
-                if(new Random().nextBoolean()) tiles.add(new MapTile(x, y, GraphicsController.getFieldByName("Grass")));
-                else tiles.add(new MapTile(x, y, GraphicsController.getFieldByName("Random")));
+        for(int x = 0; x < 50; x++)
+            for(int y = 0; y < 50; y++)
+                tiles.add(new MapTile(x, y, "Grass"));
 
         map.setTiles(tiles);
         maps.add(map);
 
     }
 
-    public static Map getMapByName(String name) {
+    public Map getMapByName(String name) {
+
+        if(maps == null) System.out.print("0 maps loaded!");
+
         for(Map map : maps)
             if(map.getName().equalsIgnoreCase(name)) return map;
 
         return null;
     }
 
-    public static Boolean mapExists(String name) {
+    public Boolean mapExists(String name) {
         return getMapByName(name) != null;
     }
 }

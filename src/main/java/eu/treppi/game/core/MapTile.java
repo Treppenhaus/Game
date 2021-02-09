@@ -1,22 +1,22 @@
 package eu.treppi.game.core;
 
 public class MapTile {
-    Field field;
+    String name;
     int x;
     int y;
 
-    public MapTile(int x, int y, Field field) {
-        this.field = field;
+    public MapTile(int x, int y, String name) {
+        this.name = name;
         this.x = x;
         this.y = y;
     }
 
-    public Field getField() {
-        return field;
+    public String getName() {
+        return name;
     }
 
-    public void setField(Field field) {
-        this.field = field;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public int getX() {

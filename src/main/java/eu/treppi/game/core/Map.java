@@ -26,4 +26,11 @@ public class Map {
     public void setName(String name) {
         this.name = name;
     }
+
+    public MapTile getMaptileByName(String name) {
+        for(MapTile tile : tiles) {
+            if(tile.getName().equalsIgnoreCase(name)) return tile;
+        }
+        return null;
+    }
 }
