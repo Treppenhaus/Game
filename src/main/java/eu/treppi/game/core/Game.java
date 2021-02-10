@@ -29,7 +29,9 @@ public class Game extends JFrame {
         game.setTitle("game lul");
         game.setSize(16 * 100, 9 * 100);
 
-        game.getGraphicscontroller().loadGraphics();
+        MapController.loadFields();
+        MapController.loadColorConnections();
+
         game.getMapcontroller().loadMaps();
 
         game.setResizable(false);
@@ -77,5 +79,9 @@ public class Game extends JFrame {
 
     public static void setGame(Game game) {
         Game.game = game;
+    }
+
+    public static void info(String info) {
+        System.out.println(info);
     }
 }

@@ -2,12 +2,13 @@ package eu.treppi.game.core;
 
 import java.util.ArrayList;
 
-public class Map {
+public class World {
     String name;
     ArrayList<MapTile> tiles;
 
-    public Map(String name) {
+    public World(String name, ArrayList<MapTile> tiles) {
         this.name = name;
+        this.tiles = tiles;
     }
 
 
@@ -25,12 +26,5 @@ public class Map {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public MapTile getMaptileByName(String name) {
-        for(MapTile tile : tiles) {
-            if(tile.getName().equalsIgnoreCase(name)) return tile;
-        }
-        return null;
     }
 }
