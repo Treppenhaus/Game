@@ -28,30 +28,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ed10808-925d-4fa0-9f16-8c81839b8183" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Game2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ressources/fields/grass_theto_with_border.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ressources/fields/grass_with_tree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ressources/worlds/testworld2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ressources/worlds/testworld3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ressources/worlds/testworld3_border.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/graphics/Camera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eu/treppi/game/core/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/graphics/Field.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eu/treppi/game/core/FieldColorConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/worlds/FieldColorConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eu/treppi/game/core/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/core/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eu/treppi/game/core/GraphicsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/graphics/GraphicsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eu/treppi/game/core/MapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/worlds/MapController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eu/treppi/game/core/MapTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/worlds/MapTile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eu/treppi/game/core/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/worlds/World.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eu/treppi/game/core/Field.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eu/treppi/game/core/FieldColorConnector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eu/treppi/game/core/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eu/treppi/game/core/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eu/treppi/game/core/GraphicsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eu/treppi/game/core/MapController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eu/treppi/game/core/MapTile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eu/treppi/game/core/World.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/treppi/game/graphics/GraphicsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/graphics/GraphicsController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612981626700</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="smooth world animation, project setup">
+      <created>1612997289652</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612997289652</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,7 +151,8 @@
     <MESSAGE value="now java project" />
     <MESSAGE value="world tests (new sprites by yuqua)" />
     <MESSAGE value="renamed maps to world, colorfieldconnection stuff (build maps now from .png)" />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed maps to world, colorfieldconnection stuff (build maps now from .png)" />
+    <MESSAGE value="smooth world animation, project setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="smooth world animation, project setup" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1612979613086">
