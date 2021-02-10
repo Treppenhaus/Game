@@ -1,4 +1,4 @@
-package eu.treppi.game.core;
+package eu.treppi.game.graphics;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;

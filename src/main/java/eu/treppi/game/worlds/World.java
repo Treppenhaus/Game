@@ -1,4 +1,4 @@
-package eu.treppi.game.core;
+package eu.treppi.game.worlds;
 
 import java.util.ArrayList;
 
@@ -26,5 +26,14 @@ public class World {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public MapTile getMapTileAt(int x, int y) {
+        for(MapTile tile : tiles) {
+            if(tile.getX() == x && tile.getY() == y) {
+                return tile;
+            }
+        }
+        return null;
     }
 }

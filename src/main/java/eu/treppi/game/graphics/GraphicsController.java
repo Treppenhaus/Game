@@ -1,4 +1,9 @@
-package eu.treppi.game.core;
+package eu.treppi.game.graphics;
+
+import eu.treppi.game.core.Game;
+import eu.treppi.game.worlds.MapController;
+import eu.treppi.game.worlds.MapTile;
+import eu.treppi.game.worlds.World;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -9,7 +14,9 @@ public class GraphicsController {
     private ArrayList<Field> fields;
 
 
-    public Graphics drawGraphics(Graphics g) {
+    public Graphics drawGraphics(Graphics g, double test) {
+
+        /*
 
         int gameHeight = Game.getGame().getHeight(); //default: 1600e
         int gameWidth = Game.getGame().getWidth();
@@ -22,22 +29,19 @@ public class GraphicsController {
         g.setColor(Color.pink);
         g.drawRect(0, 0, gameWidth, gameHeight);
 
-        /*
         DRAW MAP
-         */
         for(MapTile tile : world.getTiles()) {
+
+            int yoffset = 18;
+
             Field f = MapController.getFieldByName(tile.getName());
             BufferedImage graphics = f.getImage();
 
-            g.drawImage(graphics, tile.getX() * 80, tile.getY() * 80, null);
+            g.drawImage(graphics, tile.getX() * 80, tile.getY() * 80 + yoffset, null);
         }
 
 
 
-
-        /*
-        POPULATE MAP
-        */
 
         for(MapTile tile : world.getTiles()) {
             int x = tile.getX();
@@ -71,6 +75,9 @@ public class GraphicsController {
             }
         }
 
+
+        */
+        g = Camera.viewWorldFrom(g, Game.getGame().getMapcontroller().getMapByName("testworld"), 10.0 + test, 14.0);
         return g;
     }
 

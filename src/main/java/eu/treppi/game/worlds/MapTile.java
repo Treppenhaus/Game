@@ -1,4 +1,6 @@
-package eu.treppi.game.core;
+package eu.treppi.game.worlds;
+
+import eu.treppi.game.graphics.Field;
 
 public class MapTile {
     String name;
@@ -33,5 +35,9 @@ public class MapTile {
 
     public void setY(int y) {
         this.y = y;
+    }
+
+    public Field getField() {
+        return MapController.getFieldByName(this.name);
     }
 }

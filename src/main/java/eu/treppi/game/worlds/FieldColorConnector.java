@@ -1,4 +1,7 @@
-package eu.treppi.game.core;
+package eu.treppi.game.worlds;
+
+import eu.treppi.game.graphics.Field;
+import eu.treppi.game.worlds.MapController;
 
 public class FieldColorConnector {
     private int red, green, blue;
