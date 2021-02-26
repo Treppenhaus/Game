@@ -16,6 +16,7 @@ public class Game extends JFrame {
     private GraphicsController graphicscontroller;
 
     private ArrayList<Player> players = new ArrayList<>();
+    static private int framecount = 0;
 
 
     public Game() {
@@ -25,7 +26,7 @@ public class Game extends JFrame {
         graphicscontroller = new GraphicsController();
         mapcontroller = new MapController(graphicscontroller);
 
-        addPlayer(new Player("treppi", "ressources/player/player.png"));
+        addPlayer(new Player("treppi", "ressources/player/player_animated"));
         this.addKeyListener(new Keyboard());
     }
 
@@ -58,7 +59,7 @@ public class Game extends JFrame {
     }
 
     public static void redrawThread(Game game) {
-        int framerate = 60;
+        int framerate = 25;
         new Thread(() -> {
            while (true) {
                 try {
@@ -66,10 +67,13 @@ public class Game extends JFrame {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-
+                framecount++;
                 game.repaint();
             }
         }).start();
+    }
+    public static int getCurrentFrameCount() {
+        return framecount;
     }
 
     public void addPlayer(Player player) {

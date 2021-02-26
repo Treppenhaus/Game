@@ -41,7 +41,7 @@ public class Camera {
 
         ArrayList<Player> players = game.getPlayers();
         for(Player player : players) {
-            BufferedImage texture = player.getTexture();
+            BufferedImage texture = player.getTexture(Game.getCurrentFrameCount());
             //     cx
             //     cy
             double px = player.getX();

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Game2:jar" />
+      <artifact name="Game:jar" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -28,17 +28,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ed10808-925d-4fa0-9f16-8c81839b8183" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ressources/fields/border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/player/player_animated_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/player/player_animated_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/player/player_animated_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/player/player_animated_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/player/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Game2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Game_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Game2_jar/Game.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Game2_jar/Game.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Game2_jar/Game.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Game_jar/Game.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Game_jar/Game.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/treppi/game/core/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/core/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/eu/treppi/game/graphics/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/graphics/Camera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eu/treppi/game/graphics/GraphicsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/graphics/GraphicsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eu/treppi/game/keylistener/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/keylistener/Keyboard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/eu/treppi/game/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eu/treppi/game/worlds/FieldColorConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/worlds/FieldColorConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/treppi/game/worlds/MapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/worlds/MapController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/eu/treppi/game/core/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eu/treppi/game/core/Game.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/eu/treppi/game/graphics/Camera.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eu/treppi/game/graphics/Camera.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eu/treppi/game/graphics/GraphicsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eu/treppi/game/graphics/GraphicsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eu/treppi/game/keylistener/Keyboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eu/treppi/game/keylistener/Keyboard.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/eu/treppi/game/player/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eu/treppi/game/player/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/eu/treppi/game/worlds/FieldColorConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eu/treppi/game/worlds/FieldColorConnector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/eu/treppi/game/worlds/MapController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eu/treppi/game/worlds/MapController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +92,13 @@
     <property name="project.structure.side.proportion" value="0.17073171" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Treppi\Desktop\git\Game\src\main\resources" />
+      <recent name="C:\Users\Treppi\Desktop\git\Game\ressources" />
+      <recent name="C:\Users\Treppi\Desktop\git\Game" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -155,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614370389364</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fixed movement bugs">
+      <created>1614371902023</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614371902023</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,17 +201,18 @@
     <MESSAGE value="smooth world animation, project setup" />
     <MESSAGE value="removed comment" />
     <MESSAGE value="movements working" />
-    <option name="LAST_COMMIT_MESSAGE" value="movements working" />
+    <MESSAGE value="fixed movement bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed movement bugs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1613218283003">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1614372330436">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1613218283003" />
-    <state x="690" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1612990015600">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614372330436" />
+    <state x="690" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1614373176831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1612990015600" />
+    <state x="690" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614373176831" />
     <state x="743" y="389" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1612982175580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -201,26 +225,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="274" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1612989575824" />
-    <state x="2268" y="341" key="FileChooserDialogImpl" timestamp="1613265690539">
+    <state x="2268" y="341" key="FileChooserDialogImpl" timestamp="1614372832926">
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
-    <state x="2268" y="341" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1613265690539" />
-    <state width="1795" height="148" key="GridCell.Tab.0.bottom" timestamp="1614371827165">
+    <state x="2268" y="341" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614372832926" />
+    <state width="1795" height="235" key="GridCell.Tab.0.bottom" timestamp="1614375774543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1795" height="148" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614371827165" />
-    <state width="1795" height="148" key="GridCell.Tab.0.center" timestamp="1614371827165">
+    <state width="1795" height="235" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614375774543" />
+    <state width="1795" height="235" key="GridCell.Tab.0.center" timestamp="1614375774543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1795" height="148" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614371827165" />
-    <state width="1795" height="148" key="GridCell.Tab.0.left" timestamp="1614371827165">
+    <state width="1795" height="235" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614375774543" />
+    <state width="1795" height="235" key="GridCell.Tab.0.left" timestamp="1614375774543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1795" height="148" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614371827165" />
-    <state width="1795" height="148" key="GridCell.Tab.0.right" timestamp="1614371827165">
+    <state width="1795" height="235" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614375774543" />
+    <state width="1795" height="235" key="GridCell.Tab.0.right" timestamp="1614375774543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1795" height="148" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614371827165" />
+    <state width="1795" height="235" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614375774543" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1612901836485">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -237,10 +261,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1612901836485" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1612990190817">
+    <state x="440" y="94" key="SettingsEditor" timestamp="1614373183534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1612990190817" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614373183534" />
     <state x="817" y="309" key="Vcs.Push.Dialog.v2" timestamp="1614370392351">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -249,9 +273,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="551" y="181" key="new project wizard/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614367313325" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1613216095597">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1614372328560">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1613216095597" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614372328560" />
   </component>
 </project>

@@ -13,7 +13,7 @@ public class MapController {
 
     private static ArrayList<Field> fields;
     private static ArrayList<FieldColorConnector> colorConnections;
-    private ArrayList<World> worlds;
+    private static ArrayList<World> worlds;
     GraphicsController gc;
 
     public MapController(GraphicsController gc) {
@@ -27,6 +27,7 @@ public class MapController {
         fields.add(new Field(80, 80, "rock", "ressources/fields/rock_full.png"));
         fields.add(new Field(80, 80, "tree", "ressources/fields/grass_with_tree.png"));
         fields.add(new Field(80, 80, "missing_texture", "ressources/fields/missing.png"));
+        fields.add(new Field(80, 80, "border", "ressources/fields/border.png"));
 
         Game.info("...loaded a total of "+fields.size()+" fields!");
     }
@@ -38,6 +39,7 @@ public class MapController {
         colorConnections.add(new FieldColorConnector(0, 182, 0, "grass"));
         colorConnections.add(new FieldColorConnector(128, 128, 128, "rock"));
         colorConnections.add(new FieldColorConnector(38, 105, 0, "tree"));
+        colorConnections.add(new FieldColorConnector(0, 0, 0, "border"));
 
         Game.info("...loaded a total of "+colorConnections.size()+" color connectors!");
     }
@@ -46,7 +48,7 @@ public class MapController {
         Game.info("loading maps..");
         worlds = new ArrayList<>();
 
-        World testworld = loadWorldFromImage("Testworld", new File("ressources/worlds/testworld3.png"));
+        World testworld = loadWorldFromImage("Testworld", new File("ressources/worlds/testworld3_border.png"));
         worlds.add(testworld);
 
 
@@ -107,6 +109,14 @@ public class MapController {
 
     public static ArrayList<Field> getFields() {
         return fields;
+    }
+
+    public static World getWorldByName(String name) {
+        for(World world : worlds) {
+            if(world.getName().equalsIgnoreCase(name)) return world;
+        }
+
+        return null;
     }
 
     public static Field getFieldByName(String name) {
