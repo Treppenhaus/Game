@@ -28,20 +28,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ed10808-925d-4fa0-9f16-8c81839b8183" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ressources/player/player.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/keylistener/Keyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/misc/Vector2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/player/DIRECTION.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/player/DefaultPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/player/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Game2_jar/Game.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Game2_jar/Game.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eu/treppi/game/core/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/core/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/eu/treppi/game/graphics/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/graphics/Camera.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/eu/treppi/game/graphics/GraphicsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/graphics/GraphicsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/eu/treppi/game/core/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eu/treppi/game/core/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/treppi/game/keylistener/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/keylistener/Keyboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/treppi/game/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/treppi/game/worlds/FieldColorConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/worlds/FieldColorConnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/eu/treppi/game/graphics/Camera.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eu/treppi/game/graphics/Camera.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/eu/treppi/game/graphics/GraphicsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eu/treppi/game/graphics/GraphicsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/eu/treppi/game/keylistener/Keyboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eu/treppi/game/keylistener/Keyboard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/eu/treppi/game/player/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eu/treppi/game/player/Player.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612997317429</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="movements working">
+      <created>1614370389364</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614370389364</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,7 +177,8 @@
     <MESSAGE value="renamed maps to world, colorfieldconnection stuff (build maps now from .png)" />
     <MESSAGE value="smooth world animation, project setup" />
     <MESSAGE value="removed comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed comment" />
+    <MESSAGE value="movements working" />
+    <option name="LAST_COMMIT_MESSAGE" value="movements working" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1613218283003">
@@ -200,22 +205,22 @@
       <screen x="1920" y="0" width="1680" height="1010" />
     </state>
     <state x="2268" y="341" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1613265690539" />
-    <state width="1718" height="148" key="GridCell.Tab.0.bottom" timestamp="1614370236177">
+    <state width="1795" height="148" key="GridCell.Tab.0.bottom" timestamp="1614371827165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1718" height="148" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614370236177" />
-    <state width="1718" height="148" key="GridCell.Tab.0.center" timestamp="1614370236177">
+    <state width="1795" height="148" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614371827165" />
+    <state width="1795" height="148" key="GridCell.Tab.0.center" timestamp="1614371827165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1718" height="148" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614370236177" />
-    <state width="1718" height="148" key="GridCell.Tab.0.left" timestamp="1614370236177">
+    <state width="1795" height="148" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614371827165" />
+    <state width="1795" height="148" key="GridCell.Tab.0.left" timestamp="1614371827165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1718" height="148" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614370236177" />
-    <state width="1718" height="148" key="GridCell.Tab.0.right" timestamp="1614370236177">
+    <state width="1795" height="148" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614371827165" />
+    <state width="1795" height="148" key="GridCell.Tab.0.right" timestamp="1614371827165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1718" height="148" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614370236177" />
+    <state width="1795" height="148" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614371827165" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1612901836485">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -236,10 +241,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1612990190817" />
-    <state x="817" y="309" key="Vcs.Push.Dialog.v2" timestamp="1612997321179">
+    <state x="817" y="309" key="Vcs.Push.Dialog.v2" timestamp="1614370392351">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="817" y="309" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1612997321179" />
+    <state x="817" y="309" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614370392351" />
     <state x="551" y="181" key="new project wizard" timestamp="1614367313325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

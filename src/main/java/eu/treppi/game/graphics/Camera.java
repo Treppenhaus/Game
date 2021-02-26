@@ -29,11 +29,13 @@ public class Camera {
                 int fx = (int) (xr + cx);
                 int fy = (int) (yr + cy);
 
-                double frameoffset = (xr + cx) - fx;
+                double frameoffsetx = (xr + cx) - fx;
+                double frameoffsety = (yr + cy) - fy;
+
                 MapTile maptile = world.getMapTileAt(fx, fy);
 
                 BufferedImage texture = maptile == null ? MapController.getFieldByName("missing_texture").getImage() : maptile.getField().getImage();
-                g.drawImage(texture, (xr + fov) * 80 - (int)(frameoffset * 80), (yr + fov) * 80, null);
+                g.drawImage(texture, (xr + fov) * 80 - (int)(frameoffsetx * 80), (yr + fov) * 80 - (int) (frameoffsety * 80), null);
             }
         }
 

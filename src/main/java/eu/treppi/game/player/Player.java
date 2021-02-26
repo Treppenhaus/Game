@@ -25,7 +25,7 @@ public class Player {
 
     public void move(String direction) {
 
-        double speed = 1;
+        double speed = 0.2;
         double x = getX();
         double y = getY();
 
@@ -33,29 +33,6 @@ public class Player {
         else if(direction.equalsIgnoreCase("a")) setX(x - speed);
         else if(direction.equalsIgnoreCase("s")) setY(y + speed);
         else if(direction.equalsIgnoreCase("d")) setX(x + speed);
-        /*
-        System.out.println(direction);
-        switch (direction) {
-            case "w":
-                //up
-                System.out.println("y "+getY());
-                setY(getY() - 0.2);
-                System.out.println("up!");
-                System.out.println("y "+getY());
-            case "d":
-                //right
-                x += 0.2;
-            case "s":
-                //down
-                y += 0.2;
-            case "a":
-                //left
-                x -= 0.2;
-
-
-        }*/
-
-        System.out.println("nmoved! new position: "+x+", "+y);
     }
 
     public double getX() {

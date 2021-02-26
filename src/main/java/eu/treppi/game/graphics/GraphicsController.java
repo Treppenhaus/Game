@@ -24,14 +24,7 @@ public class GraphicsController {
 
         //draw world
 
-
         return g;
-    }
-
-    public static Graphics resizeGraphics(Graphics graphics, int dimension) {
-
-
-        return graphics;
     }
 
     public static int randInt(int min, int max) {
