@@ -1,6 +1,7 @@
 package eu.treppi.game.graphics;
 
 import eu.treppi.game.core.Game;
+import eu.treppi.game.player.Player;
 import eu.treppi.game.worlds.MapController;
 import eu.treppi.game.worlds.MapTile;
 import eu.treppi.game.worlds.World;
@@ -14,9 +15,16 @@ public class GraphicsController {
     private ArrayList<Field> fields;
 
 
-    public Graphics drawGraphics(Graphics g, double test) {
+    public Graphics drawGraphics(Graphics g) {
+        for(Player player : Game.getGame().getPlayers()) {
+            if(player.getName().equalsIgnoreCase("treppi")) {
+                g = Camera.viewWorldFrom(g, Game.getGame().getMapcontroller().getMapByName("testworld"), player.getX(), player.getY());
+            }
+        }
 
-        g = Camera.viewWorldFrom(g, Game.getGame().getMapcontroller().getMapByName("testworld"), 10.0 + test, 14.0);
+        //draw world
+
+
         return g;
     }
 

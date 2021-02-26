@@ -1,18 +1,21 @@
 package eu.treppi.game.core;
 
 import eu.treppi.game.graphics.GraphicsController;
+import eu.treppi.game.keylistener.Keyboard;
+import eu.treppi.game.player.Player;
 import eu.treppi.game.worlds.MapController;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.ArrayList;
 
 public class Game extends JFrame {
-
-    public static double test = 0;
 
     private static Game game;
     private MapController mapcontroller;
     private GraphicsController graphicscontroller;
+
+    private ArrayList<Player> players = new ArrayList<>();
 
 
     public Game() {
@@ -21,10 +24,13 @@ public class Game extends JFrame {
 
         graphicscontroller = new GraphicsController();
         mapcontroller = new MapController(graphicscontroller);
+
+        addPlayer(new Player("treppi", "ressources/player/player.png"));
+        this.addKeyListener(new Keyboard());
     }
 
     public void paint(Graphics g) {
-        g = game.getGraphicscontroller().drawGraphics(g, test);
+        g = game.getGraphicscontroller().drawGraphics(g);
     }
 
     public static void main(String[] args) {
@@ -44,23 +50,30 @@ public class Game extends JFrame {
         game.setVisible(true);
     }
 
+    public Player getMainPlayer() {
+        for(Player p : players) {
+            if(p.getName().equalsIgnoreCase("treppi")) return p;
+        }
+        return players.get(0);
+    }
+
     public static void redrawThread(Game game) {
         int framerate = 60;
         new Thread(() -> {
            while (true) {
-                test += 0.01;
                 try {
                     Thread.sleep(1000 / framerate);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
-                System.out.println(test);
-
-                if(test > 10) test = 0;
 
                 game.repaint();
             }
         }).start();
+    }
+
+    public void addPlayer(Player player) {
+        this.players.add(player);
     }
 
     public MapController getMapcontroller() {
@@ -89,5 +102,13 @@ public class Game extends JFrame {
 
     public static void info(String info) {
         System.out.println(info);
+    }
+
+    public ArrayList<Player> getPlayers() {
+        return players;
+    }
+
+    public void setPlayers(ArrayList<Player> players) {
+        this.players = players;
     }
 }

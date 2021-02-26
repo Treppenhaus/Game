@@ -28,7 +28,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ed10808-925d-4fa0-9f16-8c81839b8183" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ressources/player/player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/keylistener/Keyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/misc/Vector2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/player/DIRECTION.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/player/DefaultPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Game2_jar/Game.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Game2_jar/Game.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/treppi/game/core/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/core/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/eu/treppi/game/graphics/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/graphics/Camera.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/eu/treppi/game/graphics/GraphicsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eu/treppi/game/graphics/GraphicsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/eu/treppi/game/core/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eu/treppi/game/core/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/eu/treppi/game/graphics/Camera.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eu/treppi/game/graphics/Camera.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/eu/treppi/game/graphics/GraphicsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/eu/treppi/game/graphics/GraphicsController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +80,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LunarskyRevived2" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15234375" />
     <property name="project.structure.side.proportion" value="0.17073171" />
@@ -131,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612997289652</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="removed comment">
+      <created>1612997317429</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612997317429</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,13 +172,14 @@
     <MESSAGE value="world tests (new sprites by yuqua)" />
     <MESSAGE value="renamed maps to world, colorfieldconnection stuff (build maps now from .png)" />
     <MESSAGE value="smooth world animation, project setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="smooth world animation, project setup" />
+    <MESSAGE value="removed comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed comment" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1612979613086">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1613218283003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1612979613086" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1613218283003" />
     <state x="690" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1612990015600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -175,26 +196,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="274" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1612989575824" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1612989453455">
+    <state x="2268" y="341" key="FileChooserDialogImpl" timestamp="1613265690539">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2268" y="341" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1613265690539" />
+    <state width="1718" height="148" key="GridCell.Tab.0.bottom" timestamp="1614370236177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1612989453455" />
-    <state width="1877" height="271" key="GridCell.Tab.0.bottom" timestamp="1612993017103">
+    <state width="1718" height="148" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614370236177" />
+    <state width="1718" height="148" key="GridCell.Tab.0.center" timestamp="1614370236177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1612993017103" />
-    <state width="1877" height="271" key="GridCell.Tab.0.center" timestamp="1612993017103">
+    <state width="1718" height="148" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614370236177" />
+    <state width="1718" height="148" key="GridCell.Tab.0.left" timestamp="1614370236177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1612993017103" />
-    <state width="1877" height="271" key="GridCell.Tab.0.left" timestamp="1612993017103">
+    <state width="1718" height="148" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614370236177" />
+    <state width="1718" height="148" key="GridCell.Tab.0.right" timestamp="1614370236177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1612993017103" />
-    <state width="1877" height="271" key="GridCell.Tab.0.right" timestamp="1612993017103">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1612993017103" />
+    <state width="1718" height="148" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614370236177" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1612901836485">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -215,17 +236,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1612990190817" />
-    <state x="817" y="309" key="Vcs.Push.Dialog.v2" timestamp="1612981629531">
+    <state x="817" y="309" key="Vcs.Push.Dialog.v2" timestamp="1612997321179">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="817" y="309" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1612981629531" />
-    <state x="551" y="181" key="new project wizard" timestamp="1612986746415">
+    <state x="817" y="309" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1612997321179" />
+    <state x="551" y="181" key="new project wizard" timestamp="1614367313325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="181" key="new project wizard/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1612986746415" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1612979611516">
+    <state x="551" y="181" key="new project wizard/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1614367313325" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1613216095597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1612979611516" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1613216095597" />
   </component>
 </project>
